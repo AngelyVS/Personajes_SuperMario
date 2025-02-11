@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+  --font1:"Press Start 2P", serif;
+  --font2:"Roboto Mono", serif;
+  --font3:"VT323", serif;
+  --greey: rgb(70, 69, 69);
+  --darkOrange:rgb(232, 89, 41);
+  --darkYellow:#F8A915;
+  --softRed:rgba(231, 17, 17, 0.61);
+}
+body{
+  background-image: url(imagenes/estampado.png);
+}
+#logo{
+    height: 105px;
+    width: 125px;
+    margin-left: 25px;
+    line-height: 10px;
+}
+h1{
+  margin:50px;
+  text-align: center;
+  font-family: var(--font3);
+  font-size: 2.6rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--darkYellow);
+    border-bottom: 4px solid var(--softRed);
+    backdrop-filter: blur(10px);
+    height: 70px;
+}
+ul {
+    display: flex; /* Alinea los elementos <li> en una fila */
+    align-items: center; /* Alinea verticalmente */
+    list-style: none; /* Elimina viñetas */
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center; /* Centra la imagen y el texto */
+    gap: 10px;
+    margin-right: 10px;
+    font-family: var(--font2);
+    color: var(--greey);
+    font-weight: 400;
+    cursor: pointer; /* Espacio entre la imagen y el texto */
+  }
+  
+  #logoUser {
+    width: 30px; /* Ajusta el tamaño de la imagen */
+    height: 30px;
+    /* Opcional: para que la imagen sea circular */
+  }
+  #logoSalir{
+    width: 20px; /* Ajusta el tamaño de la imagen */
+    height: 20px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 50px;
+    
+  }
+  a{
+    text-decoration: none;
+    color: var(--greey);
+  }
+  a:hover{
+    color: rgb(231, 17, 17);
+    
+  }
+  #galery {
+
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+   grid-template-rows: repeat(3, 1fr); /* 3 filas iguales */
+   gap: 10px; /* Espacio entre los elementos */
+   height: 90%; /* Ajustar al tamaño de la pantalla */
+   padding: 20px;
+  }
+  .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+    width: 170px;
+    position: relative;
+    transition: opacity 0.8s ease-in-out;
+  
+  }
+  .image img{
+    position: relative;
+    align-items: center;
+  }
+  
+  .personaje1,.personaje2{
+    height: 140px;
+  }
+  .image .personaje2 {
+    display: none;
+   
+  }
+  .image:hover .personaje2{
+    display: block;
+   
+  }
+  .image:hover .personaje1{
+    display: none;
+  
+  }
+  .stars-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px
+   
+  }
+  .container .stars2, .media{
+    display: none;
+  }
+
+  .container:hover .stars{
+    cursor: pointer;
+    display: none;
+  }
+  .container:hover .stars2{
+    display: block;
+    transform: scale(2.0px);
+  }
+  .stars, .stars2, .media{
+    height: 32px;
+    
+  }
+ 
+ 
+  #name{
+    text-align: center;
+    font-family: var(--font3);
+    font-size: x-large;
+  }
+  form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+  }
+  form input{
+    margin-left: 8px;
+    border: 1px solid var(--darkOrange);
+    color:var(--darkOrange);
+    width: 70px;
+    padding: 5px;
+    border-radius: 6px;
+  }
+  form input:hover{
+    color: aliceblue;
+    background-color: var(--darkOrange);
+
+  }
+  form select{
+    width: 40px;
+    height: 25px;
+    border-radius: 6px;
+    border: 1px solid var(--darkOrange);
+    color:var(--darkOrange);
+  }
+  #showMessage{
+    text-align: center;
+    font-family: var(--font2);
+    font-size: small;
+  }
+
+  body footer{
+    align-items: end;
+    height: 70px;
+    background-color: var(--darkYellow);
+    border-top: 4px solid var(--softRed);
+  }
+  footer{
+    text-align: center;
+    padding-top:25px ;
+    color: rgb(87, 85, 85);
+
+  }
+  
+  .icons{
+    height: 10px;
+    width: 10px;
+    color:white
+  }
+
+
+
+  

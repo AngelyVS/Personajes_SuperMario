@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+:root{
+    --font1:"Press Start 2P", serif;
+    --font2:"Roboto Mono", serif;
+    --font3:"VT323", serif;
+    --softRed:rgba(189, 5, 5, 0.89);
+}
+
+body{
+    display: flex;
+    align-items: start;
+    justify-content:center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(imagenes/image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    height: 340px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: rgba(248, 241, 241, 0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: 3px 4px 2px 3px #03010083, 1px 1px 2px 5px #9a460e98;
+   
+}
+
+#register h2{
+   margin-bottom:13% ;
+   font-family:var(--font1);
+   text-align: center;
+   font-size: larger;
+   color: rgb(253, 0, 0);
+} 
+#register label{
+    font-family: var(--font2);
+    font-size: large;
+    font-weight: 600;
+    color: rgba(242, 45, 45, 0.879);
+    margin: 10px;
+}
+
+ .campo{
+    height: 25px;
+    width: 200px;
+    text-align: center;
+    font-family: var(--font1);
+    font-weight: 400;
+    color: rgb(113, 71, 71);
+    border-radius: 5px;
+    border-color: rgb(246, 135, 8);
+}
+#showMessage{
+    background-color: rgba(248, 241, 241, 0.605);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    margin: 40px 0px 0px 20%;
+    font-family: var(--font3);
+    color: var(--softRed);
+    font-size: larger;
+    padding: 5px;
+    border-radius: 8px;
+    max-width: 305px;
+}
+#boton{
+
+    margin-top: 35px;
+    padding: 8px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: rgb(232, 89, 41);
+    border: none;
+    font-weight: 500;
+    font-family: var(--font2);
+    color: white;
+}
+
+#boton:hover{
+    background-color:rgba(255, 255, 255, 0.441);
+    border: none;
+    color:  rgb(232, 89, 41);
+    box-shadow: 1px 1px 2px rgb(232, 89, 41);
+}
