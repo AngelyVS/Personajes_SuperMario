@@ -7,9 +7,13 @@ En este proyecto se pueden valorar los diferentes personajes de Super Mario Bros
 Esta aplicación permite al usuario registrarse o ingresar con una cuenta creada anteriormente. Se mostrará un aviso en caso de que el nombre de usuario esté vacío, las contraseñas sean muy cortas o, en caso de ingresar por segunda vez, si esta es incorrecta. El usuario puede visualizar su nombre en la parte superior derecha, así como un botón de salida.
 
 ## Tecnologías Empleadas ✔️
--PHP
--PhpMyAdmin
--CSS
+![php](https://img.shields.io/badge/php-violet
+)
+![phpMyAdmin](https://img.shields.io/badge/phpMyAdmin-orange
+)
+![css](https://img.shields.io/badge/CSS-blue
+)
+
 
 
 ## Intrucciones de uso 📖
@@ -21,22 +25,22 @@ Primero debemos activar en el panel de control de XAMPP apache y MySQL, importar
 
 ## Imágenes del Proyecto
 
-1.-Formulario de Inicio
+### 1.-Formulario de Inicio
 ![imagen1](https://github.com/AngelyVS/Personajes_SuperMario/blob/main/cap1.png)
 
-2.-Enunciado guía en caso que los campos no cumplas los requerimientos
+### 2.-Enunciado guía en caso que los campos no cumplas los requerimientos
 ![imagen2](https://github.com/AngelyVS/Personajes_SuperMario/blob/main/cap2.png)
 
-3.-Página principal
+### 3.-Página principal
 ![imagen4](https://github.com/AngelyVS/Personajes_SuperMario/blob/main/cap4.png)
 
-4.-Registrar una valoración
+### 4.-Registrar una valoración
 ![imagen5](https://github.com/AngelyVS/Personajes_SuperMario/blob/main/cap5.png)
 
-5.-Mostrar valoración
+### 5.-Mostrar valoración
 ![imagen6](https://github.com/AngelyVS/Personajes_SuperMario/blob/main/cap6.png)
 
-6.-Mostrar media 
+### 6.-Mostrar media 
 ![imagen7](https://github.com/AngelyVS/Personajes_SuperMario/blob/main/cap7.png)
 
 
